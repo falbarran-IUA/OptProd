@@ -1,0 +1,81 @@
+========================================
+INSTALACIÓN - VERSIÓN 018
+Optimizador de Producción
+========================================
+
+FECHA: 30 de noviembre de 2025
+VERSIÓN: 018 (Estilo 018, mínima cantidad de archivos)
+
+========================================
+PASOS DE INSTALACIÓN
+========================================
+
+1. DESCOMPRIMIR EL ZIP
+   - Extraer todos los archivos en una carpeta
+   - Ejemplo: C:\optimizador_produccion\
+
+2. INSTALAR DEPENDENCIAS
+   Abrir terminal en la carpeta y ejecutar:
+   
+   pip install -r requirements.txt
+
+3. EJECUTAR LA APLICACIÓN
+   
+   streamlit run app_semanal.py
+
+   La aplicación se abrirá automáticamente en:
+   http://localhost:8501
+
+========================================
+NOTAS IMPORTANTES
+========================================
+
+✅ La base de datos se inicializa AUTOMÁTICAMENTE
+   NO es necesario ejecutar migrar_json_a_bd.py manualmente
+
+✅ Si existe datos/configuracion.json, se migrará automáticamente
+
+✅ Si no hay JSON, se crearán datos por defecto (M1, M2, M3 y OP1, OP2, OP3)
+
+========================================
+ARCHIVOS INCLUIDOS
+========================================
+
+Archivos principales (7):
+  - app_semanal.py
+  - optimizador_produccion.py
+  - migrar_json_a_bd.py (opcional)
+  - requirements.txt
+  - VERSION.txt
+  - README.md
+  - README_018.md
+
+Carpeta modelos/ (3 archivos):
+  - __init__.py
+  - database.py
+  - database_models.py
+
+Carpeta utils/ (7 archivos):
+  - __init__.py
+  - db_helpers.py
+  - visualizacion_historico.py
+  - gestor_exportacion.py
+  - export_pdf.py
+  - export_excel.py
+  - kpi_calculator.py
+
+Carpeta datos/:
+  - configuracion.json (si existe)
+  - produccion.db (se crea automáticamente)
+
+========================================
+CARACTERÍSTICAS
+========================================
+
+✅ Código en estilo 018
+✅ Solo archivos esenciales
+✅ Funcionalidad completa
+✅ Inicialización automática de BD
+
+========================================
+
