@@ -1,0 +1,35 @@
+Trabajo,ID_Tarea,Nombre_Tarea,Duracion_Minutos,Tiempo_Setup_Minutos,Maquina,Operador
+Trabajo A,A1,Recepción Bobinas de Acero,120,15,M1,Juan
+Trabajo A,A2,Corte Láser Multiformato,150,20,M1,Juan
+Trabajo A,A3,Conformado Hidráulico,180,25,M3,Pablo
+Trabajo A,A4,Soldadura Robotizada,160,20,M2,María
+Trabajo A,A5,Tratamiento Térmico Controlado,150,20,M3,Lucía
+Trabajo A,A6,Rectificado de Precisión,130,15,M1,Pedro
+Trabajo A,A7,Pintura Electrostática,140,15,M2,María
+Trabajo B,B1,Preparación Kits Mecánicos,90,10,M1,Sofía
+Trabajo B,B2,Impresión 3D Prototipos,210,25,M3,Carlos
+Trabajo B,B3,Fresado CNC 5 Ejes,180,20,M2,Carla
+Trabajo B,B4,Desbarbado Manual,120,10,M1,Juan
+Trabajo B,B5,Soldadura TIG Precisa,150,20,M2,María
+Trabajo B,B6,Mecanizado de Coincidencia,120,15,M1,Pedro
+Trabajo B,B7,Pintura Poliuretánica,140,15,M2,María
+Trabajo C,C1,Mezcla Química Batch 12,130,15,M2,Lucía
+Trabajo C,C2,Reacción Controlada en Autoclave,200,25,M3,Carla
+Trabajo C,C3,Filtrado Multietapa,110,10,M1,Pedro
+Trabajo C,C4,Cristalizado Gradual,160,15,M2,Lucía
+Trabajo C,C5,Secado en Lecho Fluidizado,170,20,M3,Diego
+Trabajo C,C6,Granulado y Tamizado,120,10,M1,Ana
+Trabajo C,C7,Revestimiento Compuestos,140,15,M2,María
+Trabajo D,D1,Impresión 3D Lote Alpha,220,30,M3,Carlos
+Trabajo D,D2,Impresión 3D Lote Beta,180,25,M3,Carlos
+Trabajo D,D3,Post-Procesado Químico,170,20,M2,Lucía
+Trabajo D,D4,Curado UV,100,10,M3,Carla
+Trabajo D,D5,Rectificado Flujo Abrasivo,100,10,M1,Pedro
+Trabajo D,D6,Integración de Sensores,150,15,M2,Diego
+Trabajo E,E1,Recepción Piezas Críticas,140,15,M1,Juan
+Trabajo E,E2,Inspección Ultrasonido,160,20,M2,María
+Trabajo E,E3,Torneado Doble Torreta,190,25,M3,Pablo
+Trabajo E,E4,Balanceo Dinámico,120,15,M3,Carla
+Trabajo E,E5,Montaje Hidráulico,150,20,M2,Diego
+Trabajo E,E6,Ajuste Altísima Precisión,110,10,M1,Pedro
+Trabajo E,E7,Prueba de Hermeticidad,150,15,M2,Lucía

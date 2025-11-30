@@ -1,0 +1,85 @@
+{
+    "horario_trabajo": {
+        "inicio": "08:00",
+        "fin": "18:00",
+        "dias_laborales": [0, 1, 2, 3, 4],
+        "descanso_almuerzo": {
+            "inicio": "12:00",
+            "fin": "13:00"
+        }
+    },
+    "recursos": {
+        "maquinas": [
+            {
+                "id": "M1",
+                "nombre": "Máquina de Corte",
+                "capacidad": 1,
+                "tiempo_setup": 15,
+                "disponible": true
+            },
+            {
+                "id": "M2",
+                "nombre": "Máquina de Soldadura",
+                "capacidad": 1,
+                "tiempo_setup": 20,
+                "disponible": true
+            },
+            {
+                "id": "M3",
+                "nombre": "Máquina de Pintura",
+                "capacidad": 1,
+                "tiempo_setup": 10,
+                "disponible": true
+            }
+        ],
+        "operadores": [
+            {
+                "id": "OP1",
+                "nombre": "Operador 1",
+                "habilidades": ["M1", "M2"],
+                "disponible": true
+            },
+            {
+                "id": "OP2",
+                "nombre": "Operador 2",
+                "habilidades": ["M2", "M3"],
+                "disponible": true
+            },
+            {
+                "id": "OP3",
+                "nombre": "Operador 3",
+                "habilidades": ["M1", "M3"],
+                "disponible": true
+            }
+        ]
+    },
+    "parametros_optimizacion": {
+        "tiempo_maximo_resolucion": 30,
+        "objetivo": "minimizar_tiempo_total",
+        "ponderaciones": {
+            "tiempo_total": 0.4,
+            "utilizacion_recursos": 0.3,
+            "cumplimiento_plazos": 0.3
+        },
+        "restricciones": {
+            "permitir_paralelismo": true,
+            "respetar_prioridades": true,
+            "considerar_setup": true
+        }
+    },
+    "costos": {
+        "costo_por_hora_maquina": {
+            "M1": 50.0,
+            "M2": 75.0,
+            "M3": 60.0
+        },
+        "costo_por_hora_operador": 25.0,
+        "costo_penalizacion_retraso": 100.0
+    },
+    "reportes": {
+        "formato_salida": ["excel", "pdf", "html"],
+        "incluir_graficos": true,
+        "incluir_metricas": true,
+        "nivel_detalle": "completo"
+    }
+} 
