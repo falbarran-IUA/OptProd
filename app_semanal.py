@@ -1225,7 +1225,7 @@ with st.sidebar:
         st.write("**🎯 Parámetros de Optimización**")
         tiempo_maximo = st.number_input(
             "Tiempo máximo de resolución (segundos)", 
-            min_value=10, 
+            min_value=2, 
             max_value=300, 
             value=30,
             help="Tiempo límite para resolver el modelo de optimización"
@@ -2017,7 +2017,8 @@ with col1:
                     else:
                         # Crear optimizador
                         optimizador = OptimizadorProduccion()
-                        
+                        optimizador.config["parametros_optimizacion"]["tiempo_maximo_resolucion"] = tiempo_maximo
+
                         # Calcular horas efectivas de trabajo
                         from datetime import datetime, timedelta
                         hora_inicio_dt = datetime.combine(datetime.today(), hora_inicio)
