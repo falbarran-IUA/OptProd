@@ -1,0 +1,10 @@
+INSTRUCCIONES PARA OPERADORES:
+1. Verificar herramientas necesarias
+2. Revisar niveles de lubricante y refrigerante
+3. Ajustar parámetros básicos
+4. Ejecutar tareas en orden programado
+5. Control de calidad durante producción
+6. Limpiar al finalizar
+7. Reportar problemas importantes
+8. Registrar tiempos reales
+9. Marcar Salida
